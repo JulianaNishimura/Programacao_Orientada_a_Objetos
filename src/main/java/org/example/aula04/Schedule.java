@@ -24,5 +24,4 @@ public class Schedule {
     public String scheduleAsString(){
 
     }
-
 }
