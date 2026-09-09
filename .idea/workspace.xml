@@ -4,7 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4015fd4-7b4c-4aa9-b1fa-fe1d055e1e01" name="Changes" comment="exercicio de POO e diagrama" />
+    <list default="true" id="b4015fd4-7b4c-4aa9-b1fa-fe1d055e1e01" name="Changes" comment="exercicio de POO e diagrama">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class02/ArraysLoops.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class02/DataTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class02/EnumType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class02/IfElse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class02/InputOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class02/InputOutputAula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class02/MathMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class02/Operators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class02/Switch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class03/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class03/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class03/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class03/HumanResourcesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class03/extraExercises/ex01/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class03/extraExercises/ex01/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class03/extraExercises/ex01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/datetime/DateTimeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/datetime/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/datetime/WorkDay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/statics/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/statics/ClassWithMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/statics/StaticExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/statics/TriangleUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/strings/StringExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/wrappers/Wrappers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/aula03/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/class03/extraExercises/ex02/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/aula03/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/class03/extraExercises/ex02/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/aula03/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/class03/extraExercises/ex02/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/aula03/digrama_do_exercicio.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/class03/extraExercises/ex02/digrama_do_exercicio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/aula04/Convention.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex01/Convention.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/aula04/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/aula04/Meeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex02/Meeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/aula04/NamingConventions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex01/NamingConventions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/aula04/Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex02/Schedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/aula04/diagrama.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex02/diagrama.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,14 +77,41 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/Desktop/Programacao_Orientada_a_Objetos/src/main/java/org/example/class04"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class03\extraExercises\ex01" />
+      <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class03" />
+      <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class02" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class04\extraExercises\ex02" />
+      <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class03\extraExercises\ex02" />
+      <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class03\extraExercises" />
       <recent name="C:\Users\User\Downloads\Programacao_Orientada_a_Objetos\src\main\java\org\example\aula04" />
       <recent name="C:\Users\User\Downloads\Programacao_Orientada_a_Objetos\src\main\java\org\example\aula03" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.class04.extraExercises.ex01" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Object_Oriented_Programming" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Object_Oriented_Programming" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

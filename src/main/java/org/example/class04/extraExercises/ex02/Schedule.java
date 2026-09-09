@@ -1,4 +1,4 @@
-package org.example.aula04;
+package org.example.class04.extraExercises.ex02;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

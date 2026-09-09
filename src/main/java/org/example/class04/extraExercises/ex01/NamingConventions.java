@@ -1,4 +1,4 @@
-package org.example.aula04;
+package org.example.class04.extraExercises.ex01;
 //❖ isValidJavaIdentifier(String): recebe o nome do identificador e verifica se ele está de acordo com as
 //regras nome de identificadores em Java.
 

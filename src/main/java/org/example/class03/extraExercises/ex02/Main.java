@@ -1,4 +1,4 @@
-package org.example.aula03;
+package org.example.class03.extraExercises.ex02;
 
 public class Main {
 
