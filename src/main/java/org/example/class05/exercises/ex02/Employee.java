@@ -32,6 +32,6 @@ public sealed abstract class Employee permits FullTimeEmployee, PerhourEmployee 
 
     @Override
     public String toString() {
-        return String.format("""Employee {id='%s',name='%s',jobTitle='%s',dateOfEmployment=%s}""", id, name, jobTitle, dateOfEmployment);
+        return String.format("Employee {id='%s',name='%s',jobTitle='%s',dateOfEmployment=%s}", id, name, jobTitle, dateOfEmployment);
     }
 }
