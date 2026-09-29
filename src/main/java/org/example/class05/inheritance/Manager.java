@@ -13,4 +13,8 @@ public class Manager extends Employee{
     public double calculateProfitSharing(double profit){
         return(getYearsOfService()/5)*profit*0.0001;
     }
+
+    public String getDepartment() {
+        return department;
+    }
 }

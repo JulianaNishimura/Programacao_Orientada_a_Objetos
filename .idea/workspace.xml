@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4015fd4-7b4c-4aa9-b1fa-fe1d055e1e01" name="Changes" comment="Reorganizing folders">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/inheritance/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/inheritance/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExercises/calculadora/Calculadora.java" afterDir="false" />
+    <list default="true" id="b4015fd4-7b4c-4aa9-b1fa-fe1d055e1e01" name="Changes" comment="inheritance">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/SealedAndFinalClasses/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/SealedAndFinalClasses/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/SealedAndFinalClasses/JavaDeveloper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/SealedAndFinalClasses/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/exercises/ex01/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/exercises/ex01/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/exercises/ex01/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/exercises/ex01/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/exercises/ex02/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/exercises/ex02/FullTimeEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/exercises/ex02/PerhourEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/inheritance/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class05/inheritance/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/inheritance/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practiceExercises/calculadora/Calculadora.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,12 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1788983283946</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="inheritance">
+      <option name="closed" value="true" />
+      <created>1789589543222</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1789589543222</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="exercicio de POO e diagrama" />
     <MESSAGE value="Reorganizing folders" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganizing folders" />
+    <MESSAGE value="inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="inheritance" />
   </component>
 </project>
