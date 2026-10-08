@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4015fd4-7b4c-4aa9-b1fa-fe1d055e1e01" name="Changes" comment="inheritance exercises">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/inheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex03/CountWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex03/VerifyEmail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex03/exercicio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class06/interfacesAndPolimorfism/DeliveryDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class06/interfacesAndPolimorfism/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class06/interfacesAndPolimorfism/ShippingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class06/interfacesAndPolimorfism/WarehouseWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class05/exercises/ex02/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/exercises/ex02/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class05/inheritance/main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -54,7 +59,11 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/Programacao_Orientada_a_Objetos/src/main/java/org/example/class04&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/Programacao_Orientada_a_Objetos/src/main/java/org/example/class04&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -65,11 +74,11 @@
       <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class04\extraExercises\ex03" />
       <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class04\extraExercises\ex02" />
       <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class03\extraExercises\ex02" />
       <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class03\extraExercises" />
       <recent name="C:\Users\User\Downloads\Programacao_Orientada_a_Objetos\src\main\java\org\example\aula04" />
-      <recent name="C:\Users\User\Downloads\Programacao_Orientada_a_Objetos\src\main\java\org\example\aula03" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.class04.extraExercises.ex01" />
@@ -132,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790690022908</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="inheritance exercises">
+      <option name="closed" value="true" />
+      <created>1790697889551</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1790697889551</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
