@@ -1,13 +1,15 @@
 package org.example.practiceExams.exam02;
 
+import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
+import java.util.stream.Stream;
 
 public class Partido {
     private final int numero;
     private final String nome;
 
-    private Map<Integer, Candidato> presidente;
+    private Candidato presidente;
     private Map<Integer, Candidato> governador;
     private Map<Integer, Candidato> candidatosDeputadoEstadual;
     private Map<Integer, Candidato> candidatosDeputadoFederal;
@@ -16,6 +18,10 @@ public class Partido {
     public Partido(int numero, String nome) {
         this.numero = numero;
         this.nome = nome;
+        this.governador = new HashMap<>();
+        this.candidatosDeputadoEstadual = new HashMap<>();
+        this.candidatosDeputadoFederal = new HashMap<>();
+        this.candidatosSenador = new HashMap<>();
     }
 
     public int getNumero() {
@@ -26,56 +32,41 @@ public class Partido {
         return nome;
     }
 
+    public Candidato getPresidente() {
+        return presidente;
+    }
+
+    public Stream<Candidato> getGovernadores() {
+        return governador.values().stream();
+    }
+
+    public Stream<Candidato> getCandidatosDeputadoEstadual() {
+        return candidatosDeputadoEstadual.values().stream();
+    }
+
+    public Stream<Candidato> getCandidatosDeputadoFederal() {
+        return candidatosDeputadoFederal.values().stream();
+    }
+
+    public Stream<Candidato> getCandidatosSenador() {
+        return candidatosSenador.values().stream();
+    }
+
     public void addCandidato(Candidato candidato) {
         int numero = candidato.getNumero();
 
         switch (candidato.getCargo()) {
-            case PRESIDENTE -> {
-                if (presidente.containsKey(numero)) {
-                    throw new IllegalArgumentException(
-                            "Já existe um presidente com esse número."
-                    );
-                }
-                presidente.put(numero, candidato);
-            }
-            case GOVERNADOR -> {
-                if (governador.containsKey(numero)) {
-                    throw new IllegalArgumentException(
-                            "Já existe um governador com esse número."
-                    );
-                }
-                governador.put(numero, candidato);
-            }
-            case SENADOR -> {
-                if (candidatosSenador.containsKey(numero)) {
-                    throw new IllegalArgumentException(
-                            "Já existe um senador com esse número."
-                    );
-                }
-                candidatosSenador.put(numero, candidato);
-            }
-            case DEPUTADO_ESTADUAL -> {
-                if (candidatosDeputadoEstadual.containsKey(numero)) {
-                    throw new IllegalArgumentException(
-                            "Já existe um deputado estadual com esse número."
-                    );
-                }
-                candidatosDeputadoEstadual.put(numero, candidato);
-            }
-            case DEPUTADO_FEDERAL -> {
-                if (candidatosDeputadoFederal.containsKey(numero)) {
-                    throw new IllegalArgumentException(
-                            "Já existe um deputado federal com esse número."
-                    );
-                }
-                candidatosDeputadoFederal.put(numero, candidato);
-            }
+            case PRESIDENTE -> presidente = candidato;
+            case GOVERNADOR -> governador.put(numero, candidato);
+            case SENADOR -> candidatosSenador.put(numero, candidato);
+            case DEPUTADO_ESTADUAL -> candidatosDeputadoEstadual.put(numero, candidato);
+            case DEPUTADO_FEDERAL -> candidatosDeputadoFederal.put(numero, candidato);
         }
     }
 
     public Candidato getCandidato(Cargo cargo, int numCandidato) {
         return switch (cargo) {
-            case PRESIDENTE -> presidente.get(numCandidato);
+            case PRESIDENTE -> presidente != null && presidente.getNumero() == numCandidato ? presidente : null;
             case GOVERNADOR -> governador.get(numCandidato);
             case SENADOR -> candidatosSenador.get(numCandidato);
             case DEPUTADO_FEDERAL ->
@@ -83,6 +74,12 @@ public class Partido {
             case DEPUTADO_ESTADUAL ->
                     candidatosDeputadoEstadual.get(numCandidato);
         };
+    }
+
+    @Override
+    public String toString() {
+        return  String.format("%s %s",Utilitario.textoFixo(String.valueOf(numero),10),Utilitario.textoFixo(nome,40));
+
     }
 
     @Override
@@ -97,4 +94,5 @@ public class Partido {
     public int hashCode() {
         return Objects.hash(numero);
     }
+
 }
