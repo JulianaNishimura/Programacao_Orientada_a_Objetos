@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4015fd4-7b4c-4aa9-b1fa-fe1d055e1e01" name="Changes" comment="starting exercise 3 - class 04">
+    <list default="true" id="b4015fd4-7b4c-4aa9-b1fa-fe1d055e1e01" name="Changes" comment="practice exam 3 - Mario game finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex03/VerifyEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex03/VerifyEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class03/HumanResourcesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/class03/HumanResourcesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class04/datetime/DateTimeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/datetime/DateTimeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex01/NamingConventions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex02/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex02/Meeting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex02/Schedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex03/CountWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex03/VerifyEmail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class04/statics/StaticExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/statics/StaticExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam02/Partido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam02/Partido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam02/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam02/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam02/Urna.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam02/Urna.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam02/UrnaImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam02/UrnaImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +31,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Exception" />
       </list>
     </option>
   </component>
@@ -46,26 +59,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/Programacao_Orientada_a_Objetos/src/main/java/org/example/class04&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Principal.executor": "Run",
+    "Application.org.example.practiceExams.exam02.Principal.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/Desktop/Programacao_Orientada_a_Objetos",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\resources" />
+      <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\practiceExams\exam02" />
       <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class04" />
       <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class03\extraExercises\ex01" />
       <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class03" />
-      <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class04\extraExercises\ex03" />
@@ -77,6 +93,40 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.class04.extraExercises.ex01" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.org.example.practiceExams.exam02.Principal">
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practiceExams.exam03.main.Principal" />
+      <module name="Object_Oriented_Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.practiceExams.exam03.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.practiceExams.exam02.Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.practiceExams.exam02.Principal" />
+      <module name="Object_Oriented_Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.practiceExams.exam02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.org.example.practiceExams.exam02.Principal" />
+        <item itemvalue="Application.Principal" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -151,7 +201,79 @@
       <option name="project" value="LOCAL" />
       <updated>1791489689671</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="starting practice exam 2">
+      <option name="closed" value="true" />
+      <created>1792002835563</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1792002835563</updated>
+    </task>
+    <task id="LOCAL-00010" summary="practice exam 2 - Candidato">
+      <option name="closed" value="true" />
+      <created>1792009775325</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1792009775325</updated>
+    </task>
+    <task id="LOCAL-00011" summary="practice exam 2 - Classe utilitária Boletim">
+      <option name="closed" value="true" />
+      <created>1792010077222</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1792010077222</updated>
+    </task>
+    <task id="LOCAL-00012" summary="practice exam 2 - Interface Urna e parte da UrnaImpl">
+      <option name="closed" value="true" />
+      <created>1792011744847</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1792011744847</updated>
+    </task>
+    <task id="LOCAL-00013" summary="practice exam 2 - Partido">
+      <option name="closed" value="true" />
+      <created>1792011786019</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1792011786019</updated>
+    </task>
+    <task id="LOCAL-00014" summary="practice exam 3 - Mario States">
+      <option name="closed" value="true" />
+      <created>1792431224446</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1792431224447</updated>
+    </task>
+    <task id="LOCAL-00015" summary="practice exam 3 - Mario exception and mario game">
+      <option name="closed" value="true" />
+      <created>1792431249786</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1792431249786</updated>
+    </task>
+    <task id="LOCAL-00016" summary="practice exam 3 - Mario states - package-private">
+      <option name="closed" value="true" />
+      <created>1792431419408</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1792431419408</updated>
+    </task>
+    <task id="LOCAL-00017" summary="practice exam 3 - Mario game finished">
+      <option name="closed" value="true" />
+      <created>1792433487594</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1792433487594</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -160,6 +282,15 @@
     <MESSAGE value="inheritance" />
     <MESSAGE value="inheritance exercises" />
     <MESSAGE value="starting exercise 3 - class 04" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting exercise 3 - class 04" />
+    <MESSAGE value="starting practice exam 2" />
+    <MESSAGE value="practice exam 2 - Candidato" />
+    <MESSAGE value="practice exam 2 - Classe utilitária Boletim" />
+    <MESSAGE value="practice exam 2 - Interface Urna e parte da UrnaImpl" />
+    <MESSAGE value="practice exam 2 - Partido" />
+    <MESSAGE value="practice exam 3 - Mario States" />
+    <MESSAGE value="practice exam 3 - Mario exception and mario game" />
+    <MESSAGE value="practice exam 3 - Mario states - package-private" />
+    <MESSAGE value="practice exam 3 - Mario game finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="practice exam 3 - Mario game finished" />
   </component>
 </project>
