@@ -1,29 +1,39 @@
 package org.example.practiceExams.exam02;
 
 import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
+
+import static org.example.practiceExams.exam02.Utilitario.textoFixo;
 
 public final class Boletim {
     private Boletim() {};
 
     public static String emitir(String nomeCargo, List<Candidato> candidatos, int brancos, int nulos) {
-        StringBuilder sb = new StringBuilder();
+        String dadosCandidatos = candidatos.stream().filter(Objects::nonNull).map(Boletim::toCandidatoData).collect(Collectors.joining("\n"));
 
-        sb.append("BOLETIM DE URNA\n");
-        sb.append("Cargo: ").append(nomeCargo).append('\n');
-        sb.append("--------------------------------\n");
+        long nominais = candidatos.stream().mapToLong(Candidato::getVotos).sum();
+        long total = nominais + brancos + nulos;
 
-        for (Candidato candidato : candidatos) {
-            sb.append(candidato.getNumero())
-                    .append(" - ")
-                    .append(candidato.getNomeUrna())
-                    .append(": ")
-                    .append(candidato.getVotos())
-                    .append(" votos\n");
-        }
+        return String.format("""
+                ================ JUSTIÇA ELEITORAL ==============
+                 Boletim de Urna
+                ------------------------------%s------------------------------
+                Nome Número Votos
+                %s
+                ----------------------------------------------------------------------------
+                Total de votos Nominais: %d
+                Brancos: %d
+                Nulos: %d
+                Total apurado: %d
+                ---------------------------------------------------------------------------
+                """, nomeCargo, dadosCandidatos, nominais, brancos, nulos, total);
+    }
 
-        sb.append("Brancos: ").append(brancos).append('\n');
-        sb.append("Nulos: ").append(nulos).append('\n');
-
-        return sb.toString();
+    private static String toCandidatoData(Candidato candidato){
+        return String.format("%s %s %s",
+                textoFixo(candidato.getNomeUrna().toUpperCase(), 40),
+                textoFixo(String.valueOf(candidato.getNumero()), 10),
+                textoFixo(String.valueOf(candidato.getVotos()), 10));
     }
 }
