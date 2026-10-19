@@ -17,7 +17,7 @@ public class MarioGame {
         this.score = 0;
     };
 
-    void takeMysteryBox(){
+    public void takeMysteryBox(){
         Random random = new Random();
         switch (random.nextInt(4)) {
             case 0 -> takeFlower();
@@ -62,7 +62,7 @@ public class MarioGame {
         registerEvent(state.getClass().getSimpleName(),state.getClass().getSimpleName());
     }
 
-    boolean isDone(){
+    public boolean isDone(){
         return state instanceof Dead;
     }
 
@@ -73,5 +73,9 @@ public class MarioGame {
             sb.append(event).append("\n");
         }
         return sb.toString();
+    }
+
+    public int getScore() {
+        return score;
     }
 }
