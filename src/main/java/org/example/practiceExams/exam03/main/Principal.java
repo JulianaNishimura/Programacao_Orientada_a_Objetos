@@ -23,6 +23,9 @@ public class Principal {
                     while (!game.isDone()) {
                         game.takeMysteryBox();
                     }
+                    System.out.println("Jogador: " + player);
+                    System.out.println("Partida " + (i + 1));
+                    System.out.println(game);
                     player.addScore(game.getScore());
                 }
             }

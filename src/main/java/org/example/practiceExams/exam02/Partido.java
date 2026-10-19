@@ -69,10 +69,8 @@ public class Partido {
             case PRESIDENTE -> presidente != null && presidente.getNumero() == numCandidato ? presidente : null;
             case GOVERNADOR -> governador.get(numCandidato);
             case SENADOR -> candidatosSenador.get(numCandidato);
-            case DEPUTADO_FEDERAL ->
-                    candidatosDeputadoFederal.get(numCandidato);
-            case DEPUTADO_ESTADUAL ->
-                    candidatosDeputadoEstadual.get(numCandidato);
+            case DEPUTADO_FEDERAL -> candidatosDeputadoFederal.get(numCandidato);
+            case DEPUTADO_ESTADUAL -> candidatosDeputadoEstadual.get(numCandidato);
         };
     }
 
