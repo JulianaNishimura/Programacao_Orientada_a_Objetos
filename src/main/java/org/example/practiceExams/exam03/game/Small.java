@@ -1,6 +1,6 @@
 package org.example.practiceExams.exam03.game;
 
-public class Small implements MarioState{
+class Small implements MarioState{
     private MarioGame mario;
 
     Small(MarioGame mario) {

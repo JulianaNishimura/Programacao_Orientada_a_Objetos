@@ -1,6 +1,6 @@
 package org.example.practiceExams.exam03.game;
 
-public class Dead implements MarioState{
+class Dead implements MarioState{
     Dead() {}
 
     @Override

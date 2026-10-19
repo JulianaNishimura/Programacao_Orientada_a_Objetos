@@ -1,6 +1,6 @@
 package org.example.practiceExams.exam03.game;
 
-public class Fire implements MarioState{
+class Fire implements MarioState{
     private MarioGame mario;
 
     Fire(MarioGame mario) {
