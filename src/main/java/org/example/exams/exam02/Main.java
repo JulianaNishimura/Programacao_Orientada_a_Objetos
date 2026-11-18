@@ -33,7 +33,7 @@ public class Main {
             excluirSimulacaoService.excluir();
 
         } catch (EntityAlreadyExists e) {
-            System.out.println("[Já existe] " + e.getMessage());
+            System.out.println("[Já existe] " + e.getMessage() );
         } catch (IllegalStateException e) {
             System.out.println("[Estado inválido] " + e.getMessage());
         } catch (NoSuchElementException e) {
