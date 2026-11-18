@@ -4,70 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4015fd4-7b4c-4aa9-b1fa-fe1d055e1e01" name="Changes" comment="Finishing practice exams.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/abstractClasses/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/abstractClasses/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/abstractClasses/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/abstractClasses/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class05/classObject/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class06/genericTypes/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class06/genericTypes/CsvFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class06/genericTypes/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class06/genericTypes/Exporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class06/genericTypes/Formatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class06/genericTypes/GenericMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class06/genericTypes/GenericTypesMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class06/genericTypes/ReportService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class06/genericTypes/Reportable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class07/collections/ListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class07/collections/MapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class07/collections/SetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class07/iterator/IteratorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class07/streams/StreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class07/varargs/SalaryUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/class07/varargs/VarargsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/exception/EntityAlreadyExists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/Declaracao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/DeclaracaoCompleta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/DeclaracaoSimplificada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/Despesa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/DespesaEducacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/DespesaSaude.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/persistence/DeclaracaoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/persistence/DeclaracaoRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/service/AdicionarDespesaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/service/ExcluirSimulacaoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/service/NovaSimulacaoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/service/RelatorioSimulacaoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/service/TipoDespesa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extraExercises/ex1/Ingresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extraExercises/ex1/IngressoCamarote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extraExercises/ex1/IngressoMeia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extraExercises/ex1/IngressoVip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extraExercises/ex1/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extraExercises/ex2/CentralNotificacoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extraExercises/ex2/Notificador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extraExercises/ex2/NotificadorConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extraExercises/ex2/NotificadorEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extraExercises/ex2/NotificadorSms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extraExercises/ex2/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extraExercises/ex3/Agenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extraExercises/ex3/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extraExercises/ex3/Tarefa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extraExercises/ex4/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/extraExercises/ex4/SaldoInsuficienteException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class03/HumanResourcesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/class03/HumanResourcesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class04/datetime/DateTimeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/datetime/DateTimeExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex01/NamingConventions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex02/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex02/Meeting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex02/Schedule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex03/CountWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class04/extraExercises/ex03/VerifyEmail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/class04/statics/StaticExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/class04/statics/StaticExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam02/Urna.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam02/Urna.java" afterDir="false" />
+    <list default="true" id="b4015fd4-7b4c-4aa9-b1fa-fe1d055e1e01" name="Changes" comment="Saving from the last weeks">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,7 +339,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792435298879</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Saving from the last weeks">
+      <option name="closed" value="true" />
+      <created>1795030445633</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1795030445633</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -422,6 +368,7 @@
     <MESSAGE value="practice exam 2 - Urna" />
     <MESSAGE value="practice exam 2 - Urna Boletim" />
     <MESSAGE value="Finishing practice exams." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishing practice exams." />
+    <MESSAGE value="Saving from the last weeks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Saving from the last weeks" />
   </component>
 </project>
