@@ -1,7 +1,5 @@
 package org.example.class03;
 
-import class03.Employee;
-
 public class HumanResourcesService {
     void main(){
         // Declares the variable and instantiates the object using "new" keyword. Also, sets the object state.

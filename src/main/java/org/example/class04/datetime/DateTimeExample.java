@@ -1,5 +1,5 @@
-import class04.datetime.Employee;
-import class04.datetime.WorkDay;
+import org.example.class04.datetime.Employee;
+import org.example.class04.datetime.WorkDay;
 
 import java.time.*;
 import java.time.format.DateTimeFormatter;

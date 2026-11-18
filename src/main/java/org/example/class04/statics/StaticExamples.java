@@ -1,5 +1,5 @@
-import class04.statics.Card;
-import class04.statics.TriangleUtils;
+import org.example.class04.statics.Card;
+import org.example.class04.statics.TriangleUtils;
 
 void main() {
     double sideA = 3.0;
