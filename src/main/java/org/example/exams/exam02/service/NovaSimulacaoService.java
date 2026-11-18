@@ -4,22 +4,23 @@ import org.example.exams.exam02.exception.EntityAlreadyExists;
 import org.example.exams.exam02.model.Declaracao;
 import org.example.exams.exam02.model.DeclaracaoCompleta;
 import org.example.exams.exam02.model.DeclaracaoSimplificada;
-import org.example.exams.exam02.persistence.DeclaracaoRepository;
+import org.example.exams.exam02.persistence.DeclaracaoDAO;
 
 public class NovaSimulacaoService {
-    private DeclaracaoRepository repository;
+    private final DeclaracaoDAO dao;
 
-    public NovaSimulacaoService(DeclaracaoRepository repository){
-        this.repository = repository;
+    public NovaSimulacaoService(DeclaracaoDAO dao){
+        this.dao = dao;
     }
 
-    public void iniciar(double ganhoTributavel, double valorPagoAnterior) throws EntityAlreadyExists {
-        Declaracao declaracaoComp = new DeclaracaoCompleta(1,ganhoTributavel,valorPagoAnterior);
-        Declaracao declaracaoSimp = new DeclaracaoSimplificada(2,ganhoTributavel,valorPagoAnterior);
+    public void iniciar(double ganhoTributavel, double valorJaPago) throws EntityAlreadyExists {
 
-        if(repository.buscar(1).isPresent() || repository.buscar(2).isPresent()) throw new EntityAlreadyExists("Há uma simulação vigente");
+        final Declaracao declaracaoComp = new DeclaracaoCompleta(1,ganhoTributavel,valorJaPago);
+        final Declaracao declaracaoSimp = new DeclaracaoSimplificada(2,ganhoTributavel,valorJaPago);
 
-        repository.salvar(declaracaoComp);
-        repository.salvar(declaracaoSimp);
+        if(dao.buscar(1).isPresent() || dao.buscar(2).isPresent()) throw new EntityAlreadyExists("Há uma simulação vigente");
+
+        dao.salvar(declaracaoComp);
+        dao.salvar(declaracaoSimp);
     }
 }

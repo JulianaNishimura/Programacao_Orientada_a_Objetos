@@ -19,6 +19,23 @@ public abstract class Declaracao {
 
     protected abstract double valorImposto();
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Declaracao that)) return false;
+        return id == that.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, ganhoTributavel, valorJaPago);
+    }
+
+    @Override
+    public String toString() {
+        return String.format("id: %d, Ganho Tributavel = %.2f, valor Ja Pago: %.2f", id,ganhoTributavel,valorJaPago);
+    }
+
     public int getId() {
         return id;
     }
@@ -29,26 +46,5 @@ public abstract class Declaracao {
 
     public double getValorJaPago() {
         return valorJaPago;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Declaracao that)) return false;
-        return id == that.id && Double.compare(ganhoTributavel, that.ganhoTributavel) == 0 && Double.compare(valorJaPago, that.valorJaPago) == 0;
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, ganhoTributavel, valorJaPago);
-    }
-
-    @Override
-    public String toString() {
-        return "Declaracao{" +
-                "id=" + id +
-                ", ganhoTributavel=" + ganhoTributavel +
-                ", valorJaPago=" + valorJaPago +
-                '}';
     }
 }

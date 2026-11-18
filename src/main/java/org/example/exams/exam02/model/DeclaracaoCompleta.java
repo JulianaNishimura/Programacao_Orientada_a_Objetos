@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class DeclaracaoCompleta extends Declaracao{
-    private List<Despesa> gastos;
+    private ArrayList<Despesa> gastos;
 
     public DeclaracaoCompleta(int id, double ganhoTributavel, double valorJaPago) {
         super(id, ganhoTributavel, valorJaPago);
@@ -22,25 +22,21 @@ public class DeclaracaoCompleta extends Declaracao{
         gastos.remove(despesa);
     }
 
-    public List<Despesa> getGastos(){
-        return Collections.unmodifiableList(gastos);
-    }
-
-    public double despesasDedutivesEducacao(){
+    private double despesasDedutivesEducacao(){
         double valor =  gastos.stream().filter(d -> d instanceof DespesaEducacao).map(Despesa::getValor).reduce(Double::sum).orElse(0.0);
         return valor;
     }
 
-    public double despesasDedutivesSaude(){
+    private double despesasDedutivesSaude(){
         double valor =  gastos.stream().filter(d -> d instanceof DespesaSaude).map(Despesa::getValor).reduce(Double::sum).orElse(0.0);
         return valor;
     }
 
-    public double deducaoEfetivaEducacao(){
+    private double deducaoEfetivaEducacao(){
         return Math.min(despesasDedutivesEducacao(), DespesaEducacao.DEDUCAO_MAX);
     }
 
-    public double deducaoEfetivaSaude(){
+    private double deducaoEfetivaSaude(){
         return Math.min(despesasDedutivesSaude(), DespesaSaude.DEDUCAO_MAX);
     }
 
@@ -71,22 +67,13 @@ public class DeclaracaoCompleta extends Declaracao{
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof DeclaracaoCompleta that)) return false;
-        if (!super.equals(o)) return false;
-        return Objects.equals(gastos, that.gastos);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(super.hashCode(), gastos);
-    }
-
-    @Override
     public String toString() {
         return "DeclaracaoCompleta{" +
                 "gastos=" + gastos +
                 '}';
+    }
+
+    public List<Despesa> getGastos(){
+        return gastos.stream().toList();
     }
 }

@@ -2,18 +2,19 @@ package org.example.exams.exam02;
 
 
 import org.example.exams.exam02.exception.EntityAlreadyExists;
-import org.example.exams.exam02.persistence.DeclaracaoRepository;
-import org.example.exams.exam02.persistence.DeclaracaoRepositoryImpl;
+import org.example.exams.exam02.persistence.DeclaracaoDAO;
+import org.example.exams.exam02.persistence.DeclaracaoDaoImpl;
 import org.example.exams.exam02.service.*;
 import java.util.NoSuchElementException;
 
 public class Main {
     public static void main(String[] args) {
-        DeclaracaoRepository repository = new DeclaracaoRepositoryImpl();
-        NovaSimulacaoService novaSimulacaoService = new NovaSimulacaoService(repository);
-        AdicionarDespesaService adicionarDespesaService = new AdicionarDespesaService(repository);
-        ExcluirSimulacaoService excluirSimulacaoService = new ExcluirSimulacaoService(repository);
-        RelatorioSimulacaoService relatorioSimulacaoService = new RelatorioSimulacaoService(repository);
+        DeclaracaoDAO dao = new DeclaracaoDaoImpl();
+
+        final NovaSimulacaoService novaSimulacaoService = new NovaSimulacaoService(dao);
+        final AdicionarDespesaService adicionarDespesaService = new AdicionarDespesaService(dao);
+        final ExcluirSimulacaoService excluirSimulacaoService = new ExcluirSimulacaoService(dao);
+        final RelatorioSimulacaoService relatorioSimulacaoService = new RelatorioSimulacaoService(dao);
 
         try {
             adicionarDespesaService.adicionar("abc", 100, "32423", "ABC", TipoDespesa.SAUDE);

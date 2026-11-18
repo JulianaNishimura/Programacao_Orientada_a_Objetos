@@ -13,4 +13,8 @@ public class DeclaracaoSimplificada extends Declaracao{
         return 0;
     }
 
+    @Override
+    public java.lang.String toString() {
+        return super.toString() + "Declaração Simplificada";
+    }
 }
