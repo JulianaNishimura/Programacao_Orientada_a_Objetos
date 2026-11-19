@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4015fd4-7b4c-4aa9-b1fa-fe1d055e1e01" name="Changes" comment="second exam correction">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/DeclaracaoCompleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/DeclaracaoCompleta.java" afterDir="false" />
-    </list>
+    <list default="true" id="b4015fd4-7b4c-4aa9-b1fa-fe1d055e1e01" name="Changes" comment="second exam correction" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -355,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795044173298</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="second exam correction">
+      <option name="closed" value="true" />
+      <created>1795046539589</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1795046539589</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
