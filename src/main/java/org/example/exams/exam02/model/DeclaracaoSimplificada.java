@@ -7,10 +7,8 @@ public class DeclaracaoSimplificada extends Declaracao{
 
     @Override
     public double valorImposto(){
-        if(super.getGanhoTributavel()>= 22847.88){
-            return (super.getGanhoTributavel() - 22847.88)*0.2;
-        }
-        return 0;
+        if(getGanhoTributavel()<= 22847.88) return 0.0;
+        return (getGanhoTributavel() - 22847.88)*0.2;
     }
 
     @Override
