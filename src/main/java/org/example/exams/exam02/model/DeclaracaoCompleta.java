@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class DeclaracaoCompleta extends Declaracao{
-    private List<Despesa> gastos;
+    private ArrayList<Despesa> gastos;
 
     public DeclaracaoCompleta(int id, double ganhoTributavel, double valorJaPago) {
         super(id, ganhoTributavel, valorJaPago);
@@ -22,71 +22,58 @@ public class DeclaracaoCompleta extends Declaracao{
         gastos.remove(despesa);
     }
 
-    public List<Despesa> getGastos(){
-        return Collections.unmodifiableList(gastos);
+    private double despesasDedutivesEducacao(){
+        return gastos.stream()
+                .filter(d -> d instanceof DespesaEducacao)
+                .mapToDouble(Despesa::getValor)
+                .sum();
     }
 
-    public double despesasDedutivesEducacao(){
-        double valor =  gastos.stream().filter(d -> d instanceof DespesaEducacao).map(Despesa::getValor).reduce(Double::sum).orElse(0.0);
-        return valor;
-    }
-
-    public double despesasDedutivesSaude(){
-        double valor =  gastos.stream().filter(d -> d instanceof DespesaSaude).map(Despesa::getValor).reduce(Double::sum).orElse(0.0);
-        return valor;
-    }
-
-    public double deducaoEfetivaEducacao(){
-        return Math.min(despesasDedutivesEducacao(), DespesaEducacao.DEDUCAO_MAX);
-    }
-
-    public double deducaoEfetivaSaude(){
-        return Math.min(despesasDedutivesSaude(), DespesaSaude.DEDUCAO_MAX);
+    private double despesasDedutivesSaude(){
+        return gastos.stream()
+                .filter(d -> d instanceof DespesaSaude)
+                .mapToDouble(Despesa::getValor)
+                .sum();
     }
 
     private double totalDespesasDedutiveis(){
-        return deducaoEfetivaEducacao() + deducaoEfetivaSaude();
+        return Math.min(despesasDedutivesEducacao(),DespesaEducacao.DEDUCAO_MAX) + Math.min(despesasDedutivesSaude(),DespesaSaude.DEDUCAO_MAX);
     }
 
     @Override
     public double valorImposto(){
-        double base = super.getGanhoTributavel() - totalDespesasDedutiveis();
+        double ganhos = getGanhoTributavel() - totalDespesasDedutiveis();
         double imposto = 0;
-        if(base > 55976.16){
-            imposto += (base - 55976.16)*0.275;
-            base = 55976.16;
+
+        if(ganhos > 55976.16){
+            imposto += (ganhos - 55976.16)*0.275;
+            ganhos = 55976.16;
         }
-        if(base > 45012.72){
-            imposto += (base - 45012.72)*0.225;
-            base = 45012.72;
+
+        if(ganhos > 45012.72){
+            imposto += (ganhos - 45012.72)*0.225;
+            ganhos = 45012.72;
         }
-        if(base > 33919.92){
-            imposto += (base - 33919.92)*0.15;
-            base = 33919.92;
+
+        if(ganhos > 33919.92){
+            imposto += (ganhos - 33919.92)*0.15;
+            ganhos = 33919.92;
         }
-        if(base > 22847.88){
-            imposto += (base - 22847.88)*0.075;
+
+        if(ganhos > 22847.88){
+            imposto += (ganhos - 22847.88)*0.075;
         }
+
         return imposto;
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof DeclaracaoCompleta that)) return false;
-        if (!super.equals(o)) return false;
-        return Objects.equals(gastos, that.gastos);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(super.hashCode(), gastos);
-    }
-
-    @Override
     public String toString() {
-        return "DeclaracaoCompleta{" +
-                "gastos=" + gastos +
-                '}';
+        //fazer o tostring
+        return super.toString() + "Declaracao Completa\n" + "Despesas Totais: " + totalDespesasDedutiveis() +;
+    }
+
+    public List<Despesa> getGastos(){
+        return gastos.stream().toList();
     }
 }

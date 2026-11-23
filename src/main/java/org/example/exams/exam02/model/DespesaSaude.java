@@ -12,22 +12,7 @@ public class DespesaSaude extends Despesa{
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof DespesaSaude that)) return false;
-        if (!super.equals(o)) return false;
-        return Objects.equals(registroConselho, that.registroConselho);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(super.hashCode(), registroConselho);
-    }
-
-    @Override
     public String toString() {
-        return "DespesaSaude{" +
-                "registroConselho='" + registroConselho + '\'' +
-                '}';
+        return super.toString() + "registro Conselho: " + registroConselho;
     }
 }

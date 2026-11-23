@@ -15,6 +15,23 @@ public abstract class Despesa {
         this.valor = valor;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Despesa despesa)) return false;
+        return id == despesa.id;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, descricao, valor, cnpj);
+    }
+
+    @Override
+    public String toString() {
+        return String.format("id: %d, descricao: %s, cnpj: %s, valor: %.2f",id,descricao,cnpj,valor);
+    }
+
     public int getId() {
         return id;
     }
@@ -31,25 +48,4 @@ public abstract class Despesa {
         return cnpj;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Despesa despesa)) return false;
-        return id == despesa.id && Double.compare(valor, despesa.valor) == 0 && Objects.equals(descricao, despesa.descricao) && Objects.equals(cnpj, despesa.cnpj);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(id, descricao, valor, cnpj);
-    }
-
-    @Override
-    public String toString() {
-        return "Despesa{" +
-                "id=" + id +
-                ", descricao='" + descricao + '\'' +
-                ", valor=" + valor +
-                ", cnpj='" + cnpj + '\'' +
-                '}';
-    }
 }
