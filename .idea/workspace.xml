@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4015fd4-7b4c-4aa9-b1fa-fe1d055e1e01" name="Changes" comment="Saving from the last weeks">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/costs/PeriodCostDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/costs/PeriodCostDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/customer/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/customer/CustomerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/customer/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/persistence/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/persistence/CustomerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/persistence/EntryTicketDtoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/persistence/PeriodCostDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/ticket/EntryTicketDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/ticket/ExitTicketDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/ticket/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/ticket/TicketDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +31,9 @@
       <list>
         <option value="Exception" />
         <option value="package-info" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
         <option value="Enum" />
       </list>
     </option>
@@ -347,7 +362,23 @@
       <option name="project" value="LOCAL" />
       <updated>1795030445633</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Saving from the last weeks">
+      <option name="closed" value="true" />
+      <created>1795030669343</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1795030669343</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Saving from the last weeks">
+      <option name="closed" value="true" />
+      <created>1795030698290</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1795030698290</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
