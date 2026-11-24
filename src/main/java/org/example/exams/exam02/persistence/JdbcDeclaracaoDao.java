@@ -1,6 +1,5 @@
 package org.example.exams.exam02.persistence;
 
-import model.Declaracao;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

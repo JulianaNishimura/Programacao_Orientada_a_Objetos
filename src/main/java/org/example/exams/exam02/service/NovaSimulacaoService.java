@@ -1,10 +1,9 @@
 package org.example.exams.exam02.service;
 
-import exception.EntityAlreadyExists;
-import model.DeclaracaoCompleta;
-import model.DeclaracaoSimplificada;
-import persistence.DeclaracaoDao;
-import persistence.DeclaracaoDto;
+
+import org.example.exams.exam02.exception.EntityAlreadyExists;
+import org.example.exams.exam02.persistence.DeclaracaoDao;
+import org.example.exams.exam02.persistence.DeclaracaoDto;
 
 public class NovaSimulacaoService {
     private final DeclaracaoDao dao;

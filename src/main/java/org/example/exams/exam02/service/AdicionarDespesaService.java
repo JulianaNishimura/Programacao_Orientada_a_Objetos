@@ -1,8 +1,9 @@
 package org.example.exams.exam02.service;
 
-import persistence.DeclaracaoDao;
-import persistence.DespesaDao;
-import persistence.DespesaDto;
+
+import org.example.exams.exam02.persistence.DeclaracaoDao;
+import org.example.exams.exam02.persistence.DespesaDao;
+import org.example.exams.exam02.persistence.DespesaDto;
 
 public class AdicionarDespesaService {
     private final DeclaracaoDao declaracaoDao;

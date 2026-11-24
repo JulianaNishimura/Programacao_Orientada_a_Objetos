@@ -1,8 +1,10 @@
 package org.example.exams.exam02.service;
 
-import persistence.DeclaracaoDao;
-import persistence.DeclaracaoDto;
-import persistence.DespesaDao;
+
+
+import org.example.exams.exam02.persistence.DeclaracaoDao;
+import org.example.exams.exam02.persistence.DeclaracaoDto;
+import org.example.exams.exam02.persistence.DespesaDao;
 
 import java.util.NoSuchElementException;
 

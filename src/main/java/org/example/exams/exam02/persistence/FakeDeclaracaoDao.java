@@ -1,7 +1,5 @@
 package org.example.exams.exam02.persistence;
 
-import model.Declaracao;
-
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Optional;

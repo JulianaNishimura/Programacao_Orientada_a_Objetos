@@ -1,7 +1,5 @@
 package org.example.exams.exam02.persistence;
 
-import model.Despesa;
-
 import java.util.List;
 
 public interface DespesaDao {
