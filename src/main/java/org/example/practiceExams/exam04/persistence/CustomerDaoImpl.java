@@ -1,6 +1,5 @@
 package org.example.practiceExams.exam04.persistence;
 
-public class CustomerDaoImpl {
 import org.example.practiceExams.exam04.customer.CustomerDao;
 import org.example.practiceExams.exam04.customer.CustomerDto;
 

@@ -1,6 +1,5 @@
 package org.example.practiceExams.exam04.persistence;
 
-public class EntryTicketDtoImpl {
 import org.example.practiceExams.exam04.ticket.EntryTicketDto;
 import org.example.practiceExams.exam04.ticket.ExitTicketDto;
 import org.example.practiceExams.exam04.ticket.TicketDao;

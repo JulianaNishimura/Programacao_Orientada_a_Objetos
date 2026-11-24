@@ -1,6 +1,5 @@
 package org.example.practiceExams.exam04.persistence;
 
-public class PeriodCostDaoImpl {
 import org.example.exams.exam02.persistence.DespesaDto;
 import org.example.practiceExams.exam04.costs.PeriodCostDao;
 import org.example.practiceExams.exam04.costs.PeriodCostDto;
