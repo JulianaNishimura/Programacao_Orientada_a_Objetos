@@ -4,22 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4015fd4-7b4c-4aa9-b1fa-fe1d055e1e01" name="Changes" comment="Saving from the last weeks">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/costs/PeriodCostDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/costs/PeriodCostDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/customer/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/customer/CustomerDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/customer/VehicleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/persistence/ConnectionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/persistence/CustomerDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/persistence/EntryTicketDtoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/persistence/PeriodCostDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/ticket/EntryTicketDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/ticket/ExitTicketDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/ticket/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/ticket/TicketDao.java" afterDir="false" />
+    <list default="true" id="b4015fd4-7b4c-4aa9-b1fa-fe1d055e1e01" name="Changes" comment="exam 03 - practice">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/persistence/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/persistence/DatabaseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/persistence/DeclaracaoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/persistence/DeclaracaoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/persistence/DespesaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/persistence/DespesaDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/persistence/FakeDeclaracaoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/persistence/JdbcDeclaracaoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/persistence/JdbcDespesaDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/Declaracao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/Declaracao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/DeclaracaoCompleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/DeclaracaoCompleta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/DeclaracaoSimplificada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/DeclaracaoSimplificada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/Despesa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/Despesa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/DespesaEducacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/DespesaEducacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/DespesaSaude.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/model/DespesaSaude.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/persistence/DeclaracaoDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/persistence/DeclaracaoDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/service/AdicionarDespesaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/service/AdicionarDespesaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/service/ExcluirSimulacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/service/ExcluirSimulacaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/service/NovaSimulacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/service/NovaSimulacaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/service/RelatorioSimulacaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/service/RelatorioSimulacaoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/service/TipoDespesa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exams/exam02/service/TipoDespesa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/customer/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/customer/VehicleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/persistence/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/persistence/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/persistence/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/persistence/CustomerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/persistence/EntryTicketDtoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/persistence/EntryTicketDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/persistence/PeriodCostDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/persistence/PeriodCostDaoImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +48,8 @@
         <option value="package-info" />
         <option value="Interface" />
         <option value="Record" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -74,7 +89,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/Programacao_Orientada_a_Objetos&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/Programacao_Orientada_a_Objetos/src/main/java/org/example/exams/exam02&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -83,11 +98,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\exams\exam02" />
       <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\resources" />
       <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\practiceExams\exam02" />
       <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class04" />
       <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class03\extraExercises\ex01" />
-      <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\class03" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\Programacao_Orientada_a_Objetos\src\main\java\org\example\exams\exam02" />
@@ -378,7 +393,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795030698290</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="exam 03 - practice">
+      <option name="closed" value="true" />
+      <created>1795403755932</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1795403755933</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -400,6 +423,7 @@
     <MESSAGE value="practice exam 2 - Urna Boletim" />
     <MESSAGE value="Finishing practice exams." />
     <MESSAGE value="Saving from the last weeks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Saving from the last weeks" />
+    <MESSAGE value="exam 03 - practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="exam 03 - practice" />
   </component>
 </project>
