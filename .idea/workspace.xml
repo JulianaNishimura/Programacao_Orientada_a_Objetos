@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4015fd4-7b4c-4aa9-b1fa-fe1d055e1e01" name="Changes" comment="exam 03 - practice" />
+    <list default="true" id="b4015fd4-7b4c-4aa9-b1fa-fe1d055e1e01" name="Changes" comment="exam 03 - practice">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/persistence/EntryTicketDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/persistence/EntryTicketDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/ticket/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/practiceExams/exam04/ticket/Ticket.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -386,7 +391,23 @@
       <option name="project" value="LOCAL" />
       <updated>1795552510418</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="exam 03 - practice">
+      <option name="closed" value="true" />
+      <created>1795552610166</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1795552610166</updated>
+    </task>
+    <task id="LOCAL-00029" summary="exam 03 - practice">
+      <option name="closed" value="true" />
+      <created>1795552733066</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1795552733066</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

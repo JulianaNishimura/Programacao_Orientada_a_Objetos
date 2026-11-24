@@ -7,6 +7,7 @@ import org.example.practiceExams.exam04.ticket.TicketDao;
 import java.util.Optional;
 
 public class EntryTicketDaoImpl implements TicketDao {
+    //TODO
     @Override
     public void save(EntryTicketDto EntryDto) {
 
